@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Survey Form</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <h1 id="title">Selamat Datang di Survey Form</h1>
+    <p id="description">Terimakasih telah membantu kami mengumpulkan data.</p>
 
     <form id="survey-form">
-      <label for="name" id="name-label">Name</label>
-      <input type="text" name="name" id="name" placeholder="Enter your name" required>
-      <br>
-      <label for="email" id="email-label">Email</label>
-      <input type="email" name="email" id="email" placeholder="Enter your email" required>
-      <br>
-      <label for="age" id="number-label">Age</label>
-      <input type="number" name="age" id="number" min="17" max="100" placeholder="Enter your age">
+      <fieldset>
+        <legend>Masukkan Data Diri</legend>
+        <label for="name" id="name-label">Nama</label>
+        <input type="text" name="name" id="name" placeholder="Masukkan Nama" required>
+        <br>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Masukkan Email" required>
+        <br>
+        <label for="age" id="number-label">Age</label>
+        <input type="number" name="age" id="number" min="17" max="100" placeholder="Umur">
+      </fieldset> 
       <br>
       <p>Which option best describes your current role?</p>
       <select id="dropdown">
