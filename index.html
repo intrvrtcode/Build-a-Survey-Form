@@ -9,26 +9,26 @@
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body class="w3-container w3-theme-l5">
-    <header>
-      <h1 id="title">Selamat Datang di Survey Form</h1>
+  <body class="w3-container w3-content w3-theme-l5">
+    <header class="w3-center">
+      <h1 class="w3-text-theme" id="title">Selamat Datang di Survey Form</h1>
       <p id="description">Terimakasih telah membantu kami mengumpulkan data.</p>
     </header>
 
-    <main>
-      <form class="w3-container" id="survey-form">
-        <h4>Silahkan masukkan data diri</h4>
-        <label for="name" id="name-label">Nama</label>
+    <main class="w3-panel w3-padding w3-card w3-theme-l1 w3-round-large">
+      <form id="survey-form">
+        <h4 class="w3-center">Silahkan masukkan data diri</h4>
+        <label class="w3-text-theme-l2" for="name" id="name-label">Nama</label>
         <input class="w3-input" type="text" name="name" id="name" placeholder="Masukkan Nama" required>
         <br>
         <label for="email" id="email-label">Email</label>
         <input class="w3-input" type="email" name="email" id="email" placeholder="Masukkan Email" required>
         <br>
         <label for="age" id="number-label">Age</label>
-        <input class="w3-input" type="number" name="age" id="number" min="17" max="100" placeholder="Umur">
+        <input class="w3-input" type="number" name="age" id="number" min="17" max="100" placeholder="Masukkan Umur">
         <br>
         <p>Which option best describes your current role?</p>
-        <select id="dropdown">
+        <select class="w3-input" id="dropdown">
           <option disabled selected value>Select current role</option>
           <option>Student</option>
           <option>Full Time Job</option>
@@ -62,13 +62,13 @@
         </label>
         <br>
         <p>Any comments or suggestions?</p>
-        <textarea placeholder="Enter your comment here">
+        <textarea class="w3-input placeholder="Enter your comment here">
         </textarea>
         <br>
-        <button class="w3-button" type="submit" id="submit">Submit</button>
+        <button class="w3-button w3-round-xlarge w3-theme-l3 w3-margin-bottom w3-hover-white" type="submit" id="submit">Submit</button>
       </form>
     </main>
 
-    <footer></footer>
+    <footer class="w3-center"><p>Created with love by <a class="w3-text-theme" href="https://github.com/intrvrtcode/username.github.io">intrvrtcode</a></p></footer>
   </body>
 </html>

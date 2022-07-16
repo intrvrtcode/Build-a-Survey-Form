@@ -1,0 +1,19 @@
+body {
+  width: 70%;
+  margin: 20px 0;
+}
+h4 {
+  font-family: Geneva, Verdana, sans-serif;
+}
+main {
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+}
+button {
+  box-sizing: border-box;
+  min-width: 50%;
+  margin-left: 24%;
+  font-size: large;
+}
