@@ -1,7 +1,10 @@
-body {
-  width: 70%;
-  margin: 20px 0;
+@media screen and (min-width: 768px) {
+  body {
+    width: 70%;
+    margin: 20px 0;
+  }
 }
+
 h4 {
   font-family: Geneva, Verdana, sans-serif;
 }
